@@ -1,0 +1,1 @@
+javascript:(function initMyBookmarklet() { (window.myBookmarklet = function() { window.location = window.location.toString().replace('.com/watch?v=', '-nocookie.com/embed/'); window.location = window.location.toString().replace('&', '?'); })(); } })();
